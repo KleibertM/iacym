@@ -12,7 +12,7 @@ module.exports = (sequelize) => {
             allowNull: true
         },
         nombre: {
-            type: DataTypes.UUID,
+            type: DataTypes.STRING,
             allowNull: false,
         },
         apellido: {
